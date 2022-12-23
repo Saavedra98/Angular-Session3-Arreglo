@@ -1,0 +1,41 @@
+.container{
+    
+    
+}
+
+.row{
+    margin: 0 auto;
+    width: 600px;
+}
+
+input{
+    margin: 0 40px;
+    width: 500px;
+    height: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.btn{
+    border-radius: 100% ;
+    background-color: orange;
+    border: 1px solid orange;
+    width: 100px;
+    height: 100px;
+    margin-top: -110px;
+    margin-left: 450px;
+}
+
+.btn:hover{
+    background-color: rgb(151, 100, 4);
+    border: rgb(151, 100, 4);
+}
+
+
+ul{
+    margin: 0 auto;
+    width: 400px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}

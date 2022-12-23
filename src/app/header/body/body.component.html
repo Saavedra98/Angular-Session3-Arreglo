@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row g-3">
+        <div class="col-auto">
+            <input type="text" #nombreCurso class="form-control" id="inputPassword2" placeholder="JavaScript">
+        </div>
+        <div class="col-auto">
+            <button type="submit" (click)="addCurso(nombreCurso.value)" class="btn btn-primary mb-3">Add</button>
+        </div>
+    </div>
+    <ul>
+        <div *ngFor="let nom of cursos">
+            <li>{{nom}}</li>
+        </div>
+    </ul>
